@@ -1,44 +1,44 @@
 const topnavbar = document.querySelector(".topnavbar");
-function createLinks() {
-  // Create an array of objects with URL and link text
-  const links = [
+// function createLinks() {
+//   // Create an array of objects with URL and link text
+//   const links = [
     
-    { url: 'YogSutrani.php', text: 'योगसूत्राणि' },
-    { url: 'VisnuSahastranam.php', text: 'विष्णुसहस्रम्' },
-    { url: 'SankhyaKarika.php', text: 'साङ्ख्यकारिका' },
-    { url: 'Ast_1_1.php', text: 'अष्टाध्यायी(१.१)' }
-  ];
-  // Loop through the array and create links
-  for (let i = 0; i < links.length; i++) {
-    const link = document.createElement('a');
-    link.setAttribute('target', '_blank');
-    link.setAttribute('class', 'disabled-link');
-    link.href = links[i].url;
-    link.textContent = links[i].text;
-    topnavbar.appendChild(link); // Append link to the topnavbar
-  }
-}
-// Call the function to create links
+//     { url: 'YogSutrani.php', text: 'योगसूत्राणि' },
+//     { url: 'VisnuSahastranam.php', text: 'विष्णुसहस्रम्' },
+//     { url: 'SankhyaKarika.php', text: 'साङ्ख्यकारिका' },
+//     { url: 'Ast_1_1.php', text: 'अष्टाध्यायी(१.१)' }
+//   ];
+//   // Loop through the array and create links
+//   for (let i = 0; i < links.length; i++) {
+//     const link = document.createElement('a');
+//     link.setAttribute('target', '_blank');
+//     link.setAttribute('class', 'disabled-link');
+//     link.href = links[i].url;
+//     link.textContent = links[i].text;
+//     topnavbar.appendChild(link); // Append link to the topnavbar
+//   }
+// }
+// // Call the function to create links
 // createLinks();
 
-//current page link disaable function
-const currentUrl = window.location.href;
-const disabledLinks = document.querySelectorAll(".disabled-link");
+// //current page link disaable function
+// const currentUrl = window.location.href;
+// const disabledLinks = document.querySelectorAll(".disabled-link");
 
-// var links =[];
-//   var currWin = window;
-//   for(var i =0; i<currWin.document.links.length; i++){
-//     links.push(currWin.document.links[i].href);
-//   }
+// // var links =[];
+// //   var currWin = window;
+// //   for(var i =0; i<currWin.document.links.length; i++){
+// //     links.push(currWin.document.links[i].href);
+// //   }
 
-disabledLinks.forEach(link => {
-if(link.href === currentUrl){
-  link.addEventListener("click", e => {
-    e.preventDefault();
-  });
-  link.classList.add("disabled");
- }
-});
+// disabledLinks.forEach(link => {
+// if(link.href === currentUrl){
+//   link.addEventListener("click", e => {
+//     e.preventDefault();
+//   });
+//   link.classList.add("disabled");
+//  }
+// });
 
 
 // function for repeating selection

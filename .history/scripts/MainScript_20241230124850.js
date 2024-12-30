@@ -19,7 +19,7 @@ function createLinks() {
   }
 }
 // Call the function to create links
-// createLinks();
+createLinks();
 
 //current page link disaable function
 const currentUrl = window.location.href;

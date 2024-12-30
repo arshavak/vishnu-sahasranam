@@ -260,12 +260,12 @@ input[type="button"]:hover{
   outline:none;
   /*background-color: rgb(98, 255, 101);*/
   border-radius: 5px;
-  height: 31px;
+  height: 40px;
   border: 2px solid #000;
   border-radius: 5px;
   background-color:#ffe;
   color: #000;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
   font-weight: 800;
   flex-direction: row;
