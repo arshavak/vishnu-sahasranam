@@ -116,7 +116,6 @@ body {
     font-weight:800;
     color: #ffffff;
     margin-left: 20px;
-    padding: 10px;
   }
 
 
@@ -200,7 +199,7 @@ border-radius: 5%;
 cursor:not-allowed;
 color: rgb(0, 0, 0);
 background-color: #fff;
-font-size: 15px;
+font-size: 18px;
 padding: 4px 8px 4px 8px;
 border: 1px solid #ffe;
 font-weight: 900;
